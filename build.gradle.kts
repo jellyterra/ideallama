@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains:markdown:0.5.0")
+    implementation("org.jetbrains:markdown:0.6.1")
     implementation("com.google.code.gson:gson:2.10.1")
 }
 
