@@ -11,7 +11,7 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+// along with this program.  If not, see <https:www.gnu.org/licenses/>.
 
 package com.github.jellytea.ideallama
 
@@ -41,7 +41,7 @@ class Settings : SearchableConfigurable {
     val modelField = JTextField()
 
     val form = FormBuilder.createFormBuilder()
-        .addLabeledComponent("Bridge", bridgeField)
+        .addLabeledComponent("LLaMAsh socket", bridgeField)
         .addLabeledComponent("Model", modelField)
         .addComponentFillVertically(JPanel(), 0)
         .panel

@@ -11,7 +11,7 @@
 <!-- GNU General Public License for more details. -->
 <!-- -->
 <!-- You should have received a copy of the GNU General Public License -->
-<!-- along with this program.  If not, see <https://www.gnu.org/licenses/>. -->
+<!-- along with this program.  If not, see <https:www.gnu.org/licenses/>. -->
 
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
@@ -23,12 +23,12 @@
     <name>IDEA LLaMA</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="jellytea@symborics.com" url="https://www.yourcompany.com">LangVM</vendor>
+    <vendor email="jellyterra@proton.me" url="https://github.com/jellytea">Jelly Terra</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description>IDEA LLaMA Code assistant plugin. Run CodeLLaMA model with O-llama on localhost.</description>
+    <description>Generative AI coding assistant for IntelliJ IDEA. Run CodeLLaMA model with Ollama.</description>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
@@ -39,7 +39,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <projectConfigurable groupId="tools" displayName="IDEA LLaMA" id="test.id"
                              instance="com.github.jellytea.ideallama.Settings"/>
-        <toolWindow id="LLaMA Chat" secondary="false" anchor="right"
+        <toolWindow id="LLaMA Chat" icon="/icons/ollama.svg" secondary="false" anchor="right"
                     factoryClass="com.github.jellytea.ideallama.ToolChat"/>
     </extensions>
 </idea-plugin>

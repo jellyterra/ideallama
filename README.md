@@ -2,19 +2,13 @@
 
 Code with LLaMA on IDEA!
 
-## Features
-
-### Implemented
+## Implemented Features
 
 - LLaMA Chat: Sidebar widget for requesting generation from LLM.
 
-### Planned
-
-- Code completion while editing.
-
 ## Setup
 
-### Launch LLaMAsh
+### Launch Ollama and LLaMAsh
 
 Read the README.md of [LLaMAsh](https://github.com/jellytea/llamash)
 
@@ -23,4 +17,8 @@ Read the README.md of [LLaMAsh](https://github.com/jellytea/llamash)
 **Settings** -> **Tools** -> **IDEA LLaMA**
 
 Set LLaMAsh bridge address and the model you chose.
-The configuration is saved at ```$HOME/.config/ideallama.json```
+The configuration is saved at ```$HOME/.config/ideallama.json``` .
+
+## Usage
+
+### LLaMA Chat
